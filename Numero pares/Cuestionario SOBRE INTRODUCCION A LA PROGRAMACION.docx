@@ -1,0 +1,16 @@
+Algoritmo detarea
+	Definir n,x,sumapar,sumaimpar Como Real
+	Escribir "Cuanto numeros desea seumar "
+	leer n
+	sumaimpar=0
+	sumapar=0
+	para x= 1 Hasta  n Hacer
+		si x mod 2 == 0 Entonces
+			sumapar=sumapar + 4
+		SiNo
+			sumaimpar= sumaimpar + 4
+		FinSi
+	FinPara 
+	Escribir "La suma de los ",n,"numero pares es: ",sumapar
+	Escribir "la suma de los ",n, "numero impares es :",sumaimpar 
+FinAlgoritmo
